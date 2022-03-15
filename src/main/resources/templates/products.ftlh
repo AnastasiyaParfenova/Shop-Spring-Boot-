@@ -8,6 +8,13 @@
     <title>SHOP</title>
 </head>
 <body>
-Hello!
+<h1>Shop</h1><br>
+<h2>Товары со всей России</h2>
+<#list products as product>
+    <div>
+        <p><b>${product.title}</b> ${product.price} | <a href=""></a></p>
+    </div>
+</#list>
+
 </body>
 </html>
